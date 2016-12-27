@@ -12,6 +12,11 @@
 		3F96AF461E11A3120081EE0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F96AF441E11A3120081EE0E /* Main.storyboard */; };
 		3F96AF481E11A3120081EE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F96AF471E11A3120081EE0E /* Assets.xcassets */; };
 		3F96AF4B1E11A3120081EE0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F96AF491E11A3120081EE0E /* LaunchScreen.storyboard */; };
+		3FE7C9961E11FC51002A4388 /* ffbanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE7C9951E11FC51002A4388 /* ffbanner.png */; };
+		3FE7C9981E11FD79002A4388 /* minecraftheader.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE7C9971E11FD79002A4388 /* minecraftheader.png */; };
+		3FE7C99A1E11FE38002A4388 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE7C9991E11FE38002A4388 /* 1.png */; };
+		3FE7C99D1E11FF28002A4388 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE7C99B1E11FF28002A4388 /* 2.png */; };
+		3FE7C99E1E11FF28002A4388 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE7C99C1E11FF28002A4388 /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		3F96AF471E11A3120081EE0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F96AF4A1E11A3120081EE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F96AF4C1E11A3120081EE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE7C9951E11FC51002A4388 /* ffbanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ffbanner.png; sourceTree = "<group>"; };
+		3FE7C9971E11FD79002A4388 /* minecraftheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minecraftheader.png; sourceTree = "<group>"; };
+		3FE7C9991E11FE38002A4388 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3FE7C99B1E11FF28002A4388 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3FE7C99C1E11FF28002A4388 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				3F96AF401E11A3120081EE0E /* AppDelegate.swift */,
 				3F96AF421E11A3120081EE0E /* ViewController.swift */,
 				3F96AF441E11A3120081EE0E /* Main.storyboard */,
+				3FE7C9971E11FD79002A4388 /* minecraftheader.png */,
+				3FE7C9951E11FC51002A4388 /* ffbanner.png */,
+				3FE7C9991E11FE38002A4388 /* 1.png */,
+				3FE7C99B1E11FF28002A4388 /* 2.png */,
+				3FE7C99C1E11FF28002A4388 /* 3.png */,
 				3F96AF471E11A3120081EE0E /* Assets.xcassets */,
 				3F96AF491E11A3120081EE0E /* LaunchScreen.storyboard */,
 				3F96AF4C1E11A3120081EE0E /* Info.plist */,
@@ -90,6 +105,9 @@
 		3F96AF351E11A3110081EE0E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = fhkl;
@@ -124,6 +142,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F96AF4B1E11A3120081EE0E /* LaunchScreen.storyboard in Resources */,
+				3FE7C9981E11FD79002A4388 /* minecraftheader.png in Resources */,
+				3FE7C99D1E11FF28002A4388 /* 2.png in Resources */,
+				3FE7C99E1E11FF28002A4388 /* 3.png in Resources */,
+				3FE7C9961E11FC51002A4388 /* ffbanner.png in Resources */,
+				3FE7C99A1E11FE38002A4388 /* 1.png in Resources */,
 				3F96AF481E11A3120081EE0E /* Assets.xcassets in Resources */,
 				3F96AF461E11A3120081EE0E /* Main.storyboard in Resources */,
 			);
@@ -299,6 +322,7 @@
 				3F96AF511E11A3120081EE0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
