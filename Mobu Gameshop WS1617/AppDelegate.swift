@@ -17,24 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        //let mainVC: ViewController = ViewController()
-       // mainVC.tabBarItem.title = "Start"
-        //let profilVC: ProfileViewController = ProfileViewController()
-        //profilVC.tabBarItem.title = "Profil"
-       // let favVC: FavViewController = FavViewController()
-       // favVC.tabBarItem.title = "Favoritenliste"
-       // let warenkorbVC: WarenkorbViewController = WarenkorbViewController()
-       // warenkorbVC.tabBarItem.title = "Warenkorb"
-        
-       // let tabBarCon: UITabBarController = UITabBarController()
-       // tabBarCon.setViewControllers([mainVC,profilVC,favVC,warenkorbVC], animated: false)
-        
-       // self.window = UIWindow()
-       // self.window!.rootViewController = tabBarCon
-      //  self.window!.makeKeyAndVisible()
-        
-        
-        
         return true
     }
 
