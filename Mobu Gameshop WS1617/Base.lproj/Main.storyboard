@@ -25,6 +25,7 @@
                         <segue destination="Yc1-5s-Q4M" kind="relationship" relationship="viewControllers" id="Szu-iq-Mw5"/>
                         <segue destination="b7o-xB-RhH" kind="relationship" relationship="viewControllers" id="W5d-vU-Sc8"/>
                         <segue destination="K5Y-Os-7Rz" kind="relationship" relationship="viewControllers" id="s06-oW-jk2"/>
+                        <segue destination="9ra-EW-aVm" kind="relationship" relationship="viewControllers" id="vtz-Gr-Veg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tNC-kn-Y5a" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -273,6 +274,68 @@
             </objects>
             <point key="canvasLocation" x="-2450.625" y="-1356.25"/>
         </scene>
+        <!--Kategorien-->
+        <scene sceneID="WBg-FS-KkS">
+            <objects>
+                <viewController id="9ra-EW-aVm" customClass="KategorienViewController" customModule="Mobu_Gameshop_WS1617" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3TQ-E3-u1d"/>
+                        <viewControllerLayoutGuide type="bottom" id="iht-Za-J42"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6mi-dC-5nz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4A6-m4-3Vi">
+                                <rect key="frame" x="0.0" y="28" width="375" height="41"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kategorien" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRk-WK-O47">
+                                        <rect key="frame" x="139" y="9" width="97" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.24727746210000001" green="0.0095451295350000003" blue="0.013136342929999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="jRk-WK-O47" firstAttribute="bottom" secondItem="4A6-m4-3Vi" secondAttribute="bottomMargin" id="HfU-b1-PTs"/>
+                                    <constraint firstItem="jRk-WK-O47" firstAttribute="centerY" secondItem="4A6-m4-3Vi" secondAttribute="centerY" id="Yv8-lq-cP9"/>
+                                    <constraint firstItem="jRk-WK-O47" firstAttribute="centerX" secondItem="4A6-m4-3Vi" secondAttribute="centerX" id="iiG-Mm-OJq"/>
+                                </constraints>
+                            </view>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="AkW-mz-Adz">
+                                <rect key="frame" x="0.0" y="69" width="375" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NYU-3w-nFE">
+                                <rect key="frame" x="0.0" y="113" width="375" height="505"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="AkW-mz-Adz" secondAttribute="trailing" id="06e-G0-aKh"/>
+                            <constraint firstAttribute="trailing" secondItem="NYU-3w-nFE" secondAttribute="trailing" id="1Ic-bJ-sqA"/>
+                            <constraint firstItem="AkW-mz-Adz" firstAttribute="leading" secondItem="6mi-dC-5nz" secondAttribute="leading" id="BcS-NF-ScW"/>
+                            <constraint firstItem="NYU-3w-nFE" firstAttribute="leading" secondItem="6mi-dC-5nz" secondAttribute="leading" id="DUb-Uz-QcR"/>
+                            <constraint firstItem="AkW-mz-Adz" firstAttribute="top" secondItem="4A6-m4-3Vi" secondAttribute="bottom" id="Ep6-iZ-GrX"/>
+                            <constraint firstItem="4A6-m4-3Vi" firstAttribute="trailing" secondItem="AkW-mz-Adz" secondAttribute="trailing" id="M0Z-wU-5sl"/>
+                            <constraint firstAttribute="trailing" secondItem="NYU-3w-nFE" secondAttribute="trailing" id="MRj-TX-kQX"/>
+                            <constraint firstItem="NYU-3w-nFE" firstAttribute="top" secondItem="AkW-mz-Adz" secondAttribute="bottom" id="Qea-Jq-Xtm"/>
+                            <constraint firstItem="4A6-m4-3Vi" firstAttribute="leading" secondItem="AkW-mz-Adz" secondAttribute="leading" id="aos-8q-qFP"/>
+                            <constraint firstItem="iht-Za-J42" firstAttribute="top" secondItem="NYU-3w-nFE" secondAttribute="bottom" id="cpw-Yi-Jz5"/>
+                            <constraint firstItem="NYU-3w-nFE" firstAttribute="leading" secondItem="6mi-dC-5nz" secondAttribute="leading" id="e3w-go-vFR"/>
+                            <constraint firstItem="NYU-3w-nFE" firstAttribute="top" secondItem="AkW-mz-Adz" secondAttribute="bottom" id="eDl-uB-DFZ"/>
+                            <constraint firstItem="4A6-m4-3Vi" firstAttribute="top" secondItem="3TQ-E3-u1d" secondAttribute="bottom" constant="8" symbolic="YES" id="oDg-fZ-JZr"/>
+                            <constraint firstItem="iht-Za-J42" firstAttribute="top" secondItem="NYU-3w-nFE" secondAttribute="bottom" id="s9o-4P-GAw"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Kategorien" id="aoW-SY-OzD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Auh-ep-WMl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1415.2" y="-789.35532233883066"/>
+        </scene>
         <!--Profil-->
         <scene sceneID="VFy-lv-t0W">
             <objects>
@@ -378,9 +441,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oZg-lX-Zza" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3780" y="19.340329835082461"/>
+            <point key="canvasLocation" x="-3727" y="9"/>
         </scene>
-        <!--Wunsch View Controller-->
+        <!--Wunschliste-->
         <scene sceneID="1Dz-aY-w35">
             <objects>
                 <viewController id="Yc1-5s-Q4M" customClass="WunschViewController" customModule="Mobu_Gameshop_WS1617" customModuleProvider="target" sceneMemberID="viewController">
@@ -435,7 +498,7 @@
                             <constraint firstAttribute="trailing" secondItem="tXO-R6-7fw" secondAttribute="trailing" id="zIZ-43-nlQ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="Mhu-bi-Ua4"/>
+                    <tabBarItem key="tabBarItem" title="Wunschliste" id="Mhu-bi-Ua4"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="Ode-Ww-s3g" id="B6j-9C-Ir9"/>
                     </connections>
@@ -569,7 +632,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dDu-J8-9rA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1728.8" y="29.23538230884558"/>
+            <point key="canvasLocation" x="-1732" y="9"/>
         </scene>
     </scenes>
     <resources>
