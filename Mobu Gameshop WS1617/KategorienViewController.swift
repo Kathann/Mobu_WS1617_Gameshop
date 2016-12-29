@@ -11,10 +11,14 @@ import UIKit
 class KategorienViewController: UIViewController
 {
 
+    @IBOutlet weak var kategorieTableView1: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.kategorieTableView1.dataSource = self
+        self.kategorieTableView1.contentInset = UIEdgeInsets(top: -64, left: 0.0, bottom: 0.0, right: 0.0)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,14 +27,27 @@ class KategorienViewController: UIViewController
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+}
+extension KategorienViewController: UITableViewDataSource{
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        return 6
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
+        
+        var cell: UITableViewCell? = tableView.dequeueReusableCell(withIdentifier: "defaultCell")
+        
+        if cell == nil {
+            cell = UITableViewCell(style: .default, reuseIdentifier: "default")
+        }
+        
+        
+        cell!.textLabel?.text = "Zeile \(indexPath.row + 1)"
+        
+        
+        return cell!
+    }
+    
 }
