@@ -8,7 +8,8 @@
 
 import UIKit
 
-class KategorienViewController: UIViewController {
+class KategorienViewController: UIViewController
+{
 
     override func viewDidLoad() {
         super.viewDidLoad()
