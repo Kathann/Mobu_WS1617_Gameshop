@@ -486,33 +486,6 @@
                                 <rect key="frame" x="0.0" y="69" width="375" height="333.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KV0-5f-pm3">
-                                <rect key="frame" x="0.0" y="102.5" width="667" height="54.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="GESAMT:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuC-Lu-Os0">
-                                        <rect key="frame" x="20" y="21" width="627" height="25.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <color key="textColor" red="0.24727746210000001" green="0.0095451295350000003" blue="0.013136342929999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0,00€" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOq-og-eld">
-                                        <rect key="frame" x="20" y="20.5" width="627" height="26"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <color key="textColor" red="0.24727746210000001" green="0.0095451295350000003" blue="0.013136342929999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="KOq-og-eld" firstAttribute="centerX" secondItem="KV0-5f-pm3" secondAttribute="centerX" id="4ni-kv-kdH"/>
-                                    <constraint firstItem="KOq-og-eld" firstAttribute="baseline" secondItem="LuC-Lu-Os0" secondAttribute="baseline" id="BUc-Qe-Q1i"/>
-                                    <constraint firstItem="LuC-Lu-Os0" firstAttribute="leading" secondItem="KV0-5f-pm3" secondAttribute="leading" constant="20" id="Rl5-Ja-UqW"/>
-                                    <constraint firstItem="LuC-Lu-Os0" firstAttribute="bottom" secondItem="KV0-5f-pm3" secondAttribute="bottomMargin" id="XKD-vE-zQD"/>
-                                    <constraint firstAttribute="trailing" secondItem="KOq-og-eld" secondAttribute="trailing" constant="20" id="b8w-BR-O1X"/>
-                                    <constraint firstItem="LuC-Lu-Os0" firstAttribute="centerX" secondItem="KV0-5f-pm3" secondAttribute="centerX" id="bEq-ft-e6g"/>
-                                    <constraint firstItem="LuC-Lu-Os0" firstAttribute="top" secondItem="KV0-5f-pm3" secondAttribute="top" constant="21" id="luj-bR-mMM"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LdF-gY-bnB">
                                 <rect key="frame" x="0.0" y="457" width="375" height="50"/>
                                 <subviews>
@@ -539,12 +512,40 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KV0-5f-pm3">
+                                <rect key="frame" x="0.0" y="399" width="375" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GESAMT:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuC-Lu-Os0">
+                                        <rect key="frame" x="20" y="21" width="335" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" red="0.24727746210000001" green="0.0095451295350000003" blue="0.013136342929999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0,00€" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOq-og-eld">
+                                        <rect key="frame" x="20" y="16" width="335" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" red="0.24727746210000001" green="0.0095451295350000003" blue="0.013136342929999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="KOq-og-eld" firstAttribute="centerX" secondItem="KV0-5f-pm3" secondAttribute="centerX" id="4ni-kv-kdH"/>
+                                    <constraint firstItem="KOq-og-eld" firstAttribute="baseline" secondItem="LuC-Lu-Os0" secondAttribute="baseline" id="BUc-Qe-Q1i"/>
+                                    <constraint firstItem="LuC-Lu-Os0" firstAttribute="leading" secondItem="KV0-5f-pm3" secondAttribute="leading" constant="20" id="Rl5-Ja-UqW"/>
+                                    <constraint firstItem="LuC-Lu-Os0" firstAttribute="bottom" secondItem="KV0-5f-pm3" secondAttribute="bottomMargin" id="XKD-vE-zQD"/>
+                                    <constraint firstAttribute="trailing" secondItem="KOq-og-eld" secondAttribute="trailing" constant="20" id="b8w-BR-O1X"/>
+                                    <constraint firstItem="LuC-Lu-Os0" firstAttribute="centerX" secondItem="KV0-5f-pm3" secondAttribute="centerX" id="bEq-ft-e6g"/>
+                                    <constraint firstItem="LuC-Lu-Os0" firstAttribute="top" secondItem="KV0-5f-pm3" secondAttribute="top" constant="21" id="luj-bR-mMM"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="olL-TT-y6R" firstAttribute="top" secondItem="KO0-KF-x7i" secondAttribute="bottom" id="AHt-PV-vot"/>
                             <constraint firstItem="KV0-5f-pm3" firstAttribute="leading" secondItem="NuI-AP-Nmu" secondAttribute="leading" id="C15-Lm-3LV"/>
                             <constraint firstItem="NuI-AP-Nmu" firstAttribute="trailing" secondItem="olL-TT-y6R" secondAttribute="trailing" id="C9A-gl-G2u"/>
+                            <constraint firstItem="KV0-5f-pm3" firstAttribute="leading" secondItem="M9F-G6-rdD" secondAttribute="leading" id="CTr-Gl-NgT"/>
                             <constraint firstItem="NuI-AP-Nmu" firstAttribute="top" secondItem="olL-TT-y6R" secondAttribute="bottom" constant="8" symbolic="YES" id="Erf-BY-QSi"/>
                             <constraint firstItem="NuI-AP-Nmu" firstAttribute="height" secondItem="M9F-G6-rdD" secondAttribute="height" multiplier="0.5" id="FAD-9Q-rLB"/>
                             <constraint firstItem="BbL-Is-rwN" firstAttribute="top" secondItem="LdF-gY-bnB" secondAttribute="bottom" constant="111" id="J80-pJ-qq5"/>
@@ -558,6 +559,7 @@
                             <constraint firstAttribute="trailing" secondItem="olL-TT-y6R" secondAttribute="trailing" id="YrY-Cb-EU8"/>
                             <constraint firstItem="NuI-AP-Nmu" firstAttribute="leading" secondItem="olL-TT-y6R" secondAttribute="leading" id="fad-ii-vZh"/>
                             <constraint firstItem="qlT-fy-pE0" firstAttribute="leading" secondItem="M9F-G6-rdD" secondAttribute="leadingMargin" constant="40" id="i99-eg-ww5"/>
+                            <constraint firstAttribute="trailing" secondItem="KV0-5f-pm3" secondAttribute="trailing" id="mg5-bX-6bj"/>
                             <constraint firstItem="LdF-gY-bnB" firstAttribute="trailing" secondItem="KV0-5f-pm3" secondAttribute="trailing" id="nbg-TU-u9M"/>
                             <constraint firstItem="qlT-fy-pE0" firstAttribute="top" secondItem="LdF-gY-bnB" secondAttribute="bottom" constant="36" id="og9-cZ-YxS"/>
                             <constraint firstItem="qlT-fy-pE0" firstAttribute="centerX" secondItem="LdF-gY-bnB" secondAttribute="centerX" id="saK-Nk-5YU"/>
