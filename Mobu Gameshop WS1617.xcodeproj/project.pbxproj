@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3F30CE801E12C7A400187C62 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30CE7F1E12C7A400187C62 /* ProfileViewController.swift */; };
 		3F30CE841E12C85500187C62 /* WarenkorbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30CE831E12C85500187C62 /* WarenkorbViewController.swift */; };
+		3F37D1381E1AA56500B653C2 /* KategoriePCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37D1371E1AA56500B653C2 /* KategoriePCViewController.swift */; };
+		3F37D13A1E1AA96D00B653C2 /* KategorieRPGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37D1391E1AA96D00B653C2 /* KategorieRPGViewController.swift */; };
+		3F37D13C1E1AAB1400B653C2 /* KategorieSimulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37D13B1E1AAB1400B653C2 /* KategorieSimulationViewController.swift */; };
+		3F37D1401E1AB02800B653C2 /* KategorieSportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37D13F1E1AB02800B653C2 /* KategorieSportViewController.swift */; };
 		3F7BB9EC1E154EC20032D6FE /* KategorienViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BB9EB1E154EC20032D6FE /* KategorienViewController.swift */; };
 		3F96AF411E11A3120081EE0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96AF401E11A3120081EE0E /* AppDelegate.swift */; };
 		3F96AF431E11A3120081EE0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96AF421E11A3120081EE0E /* ViewController.swift */; };
@@ -22,6 +26,10 @@
 /* Begin PBXFileReference section */
 		3F30CE7F1E12C7A400187C62 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3F30CE831E12C85500187C62 /* WarenkorbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarenkorbViewController.swift; sourceTree = "<group>"; };
+		3F37D1371E1AA56500B653C2 /* KategoriePCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KategoriePCViewController.swift; sourceTree = "<group>"; };
+		3F37D1391E1AA96D00B653C2 /* KategorieRPGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KategorieRPGViewController.swift; sourceTree = "<group>"; };
+		3F37D13B1E1AAB1400B653C2 /* KategorieSimulationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KategorieSimulationViewController.swift; sourceTree = "<group>"; };
+		3F37D13F1E1AB02800B653C2 /* KategorieSportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KategorieSportViewController.swift; path = ../KategorieSportViewController.swift; sourceTree = "<group>"; };
 		3F7BB9EB1E154EC20032D6FE /* KategorienViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KategorienViewController.swift; sourceTree = "<group>"; };
 		3F96AF3D1E11A3120081EE0E /* Mobu Gameshop WS1617.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobu Gameshop WS1617.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F96AF401E11A3120081EE0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +79,10 @@
 				3F30CE831E12C85500187C62 /* WarenkorbViewController.swift */,
 				3F7BB9EB1E154EC20032D6FE /* KategorienViewController.swift */,
 				3FED0B471E157EEB00222CC5 /* KategorieAuswahlViewController.swift */,
+				3F37D1371E1AA56500B653C2 /* KategoriePCViewController.swift */,
+				3F37D1391E1AA96D00B653C2 /* KategorieRPGViewController.swift */,
+				3F37D13B1E1AAB1400B653C2 /* KategorieSimulationViewController.swift */,
+				3F37D13F1E1AB02800B653C2 /* KategorieSportViewController.swift */,
 				3F96AF441E11A3120081EE0E /* Main.storyboard */,
 				3F96AF471E11A3120081EE0E /* Assets.xcassets */,
 				3F96AF491E11A3120081EE0E /* LaunchScreen.storyboard */,
@@ -157,10 +169,14 @@
 				3F30CE801E12C7A400187C62 /* ProfileViewController.swift in Sources */,
 				3FED0B481E157EEB00222CC5 /* KategorieAuswahlViewController.swift in Sources */,
 				3F96AF431E11A3120081EE0E /* ViewController.swift in Sources */,
+				3F37D13C1E1AAB1400B653C2 /* KategorieSimulationViewController.swift in Sources */,
 				3FC28D1B1E153B5B00ED7138 /* WunschViewController.swift in Sources */,
 				3F7BB9EC1E154EC20032D6FE /* KategorienViewController.swift in Sources */,
+				3F37D13A1E1AA96D00B653C2 /* KategorieRPGViewController.swift in Sources */,
 				3F30CE841E12C85500187C62 /* WarenkorbViewController.swift in Sources */,
 				3F96AF411E11A3120081EE0E /* AppDelegate.swift in Sources */,
+				3F37D1401E1AB02800B653C2 /* KategorieSportViewController.swift in Sources */,
+				3F37D1381E1AA56500B653C2 /* KategoriePCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,27 +1,25 @@
 //
-//  KategorieAuswahlViewController.swift
+//  KategorieSportViewController.swift
 //  Mobu Gameshop WS1617
 //
-//  Created by Student on 29.12.16.
-//  Copyright © 2016 fhkl. All rights reserved.
+//  Created by Student on 02.01.17.
+//  Copyright © 2017 fhkl. All rights reserved.
 //
 
 import UIKit
 
-class KategorieAuswahlViewController: UIViewController {
+class KategorieSportViewController: UIViewController {
     var contentText: String?
-    
     @IBOutlet weak var contentLabel: UILabel!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if contentText != nil {
-           self.contentLabel.text = contentText!
-      }
-        
 
-        // Do any additional setup after loading the view.
+        if self.contentText != nil {
+            self.contentLabel.text = contentText
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
